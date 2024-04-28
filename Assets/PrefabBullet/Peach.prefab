@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1457602697714240052}
   - component: {fileID: 1657194098553511284}
-  - component: {fileID: 7445995682657526379}
   - component: {fileID: 8829820831460515474}
+  - component: {fileID: -8445731302313990382}
   m_Layer: 0
   m_Name: Peach
   m_TagString: Untagged
@@ -86,23 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7445995682657526379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9184166949711294531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c268d053a29efa478951f9ee0921c41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  damage: 0
-  damageAmount: 3
-  destroyDelay: 0.05
-  targetTag: 
 --- !u!50 &8829820831460515474
 Rigidbody2D:
   serializedVersion: 4
@@ -130,3 +113,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-8445731302313990382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9184166949711294531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c268d053a29efa478951f9ee0921c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  damage: 0
+  damageAmount: 3
+  destroyDelay: 0.05
+  targetTag: Player
