@@ -914,52 +914,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Game Producer          wimala saetiew 1650704578  Sec 229A    No.25
-
-
-
-
-
-
-
-
-
-
-    Game 
-    Programmer     wimala saetiew 1650704578  Sec 229A    No.25
-
-
-
-
-
-
-
-
-
-    Game
-    Designer            wimala saetiew 1650704578  Sec 229A    No.25
-
-
-
-
-
-
-
-
-
-
-    Level
-    Desingn              wimala saetiew 1650704578  Sec 229A    No.25
-
-
-
-
-
-
-
-
-
-    Assets                        '
+  m_text: "Game Producer          wimala saetiew 1650704578  Sec 229A    No.25\n\n\n\n\n\n\n\n\n\nGame 
+    Programmer     wimala saetiew 1650704578  Sec 229A    No.25\n\n\n\n\n\n\n\n\nGame
+    Designer            wimala saetiew 1650704578  Sec 229A    No.25\n\n\n\n\n\n\n\n\n\nLevel
+    Desingn              wimala saetiew 1650704578  Sec 229A    No.25\n\n\n\n\n\n\n\n\nAssets                       
+    Slime Enemy - Pixel Art\n\t\t            \t\t     Apple Castle 2D Tower defense\n\t\t\t\t\t\t   
+    FREE - Stylized 2D Forest Mountain\n\t\t\t        Cute 2D Girl - Wizard\t \n 
+    \t\t\tSurreal-Skyboxes"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

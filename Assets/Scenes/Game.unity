@@ -962,6 +962,10 @@ PrefabInstance:
       propertyPath: shootPoint
       value: 
       objectReference: {fileID: 1719330707}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: bulletSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -472.3
@@ -1008,7 +1012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8976764184858013622, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3348,6 +3352,10 @@ PrefabInstance:
       propertyPath: shootPoint
       value: 
       objectReference: {fileID: 1197439832}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: bulletSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -45.5
@@ -3394,7 +3402,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8976764184858013622, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3501,6 +3509,10 @@ PrefabInstance:
       propertyPath: shootPoint
       value: 
       objectReference: {fileID: 1329401180}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: bulletSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -123.3
@@ -3547,7 +3559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8976764184858013622, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4958,6 +4970,10 @@ PrefabInstance:
       propertyPath: shootPoint
       value: 
       objectReference: {fileID: 603390206}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: bulletSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -184.8
@@ -5004,7 +5020,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8976764184858013622, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8401,6 +8417,10 @@ PrefabInstance:
       propertyPath: shootPoint
       value: 
       objectReference: {fileID: 602031784}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: bulletSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -255.4
@@ -8447,7 +8467,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8976764184858013622, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9093,6 +9113,10 @@ PrefabInstance:
       propertyPath: shootPoint
       value: 
       objectReference: {fileID: 311784721}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: bulletSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -343.2
@@ -9139,7 +9163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8976764184858013622, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10182,6 +10206,10 @@ PrefabInstance:
       propertyPath: shootPoint
       value: 
       objectReference: {fileID: 1991892058}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: bulletSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -83
@@ -10228,7 +10256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8976764184858013622, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10707,6 +10735,10 @@ PrefabInstance:
       propertyPath: shootPoint
       value: 
       objectReference: {fileID: 10323816}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: bulletSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -403.1
@@ -10753,7 +10785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8976764184858013622, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11216,6 +11248,10 @@ PrefabInstance:
       propertyPath: shootPoint
       value: 
       objectReference: {fileID: 1180342301}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: bulletSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -499.3
@@ -11262,7 +11298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8976764184858013622, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15054,6 +15090,10 @@ PrefabInstance:
       propertyPath: shootPoint
       value: 
       objectReference: {fileID: 1382703090}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: bulletSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -441.9
@@ -15100,7 +15140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8976764184858013622, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16571,7 +16611,7 @@ PrefabInstance:
       objectReference: {fileID: 1369846207}
     - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: bulletSpeed
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
