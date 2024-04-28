@@ -958,6 +958,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1537234211}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 1719330707}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -472.3
@@ -3461,6 +3465,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1537234211}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 1197439832}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -45.5
@@ -3606,6 +3614,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1537234211}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 1329401180}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -123.3
@@ -5055,6 +5067,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1537234211}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 603390206}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -184.8
@@ -8356,13 +8372,17 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1537234211}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 602031784}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -257.8
+      value: -255.4
       objectReference: {fileID: 0}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -21.185991
+      value: -44
       objectReference: {fileID: 0}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9040,6 +9060,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1537234211}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 311784721}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -343.2
@@ -10121,6 +10145,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1537234211}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 1991892058}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -83
@@ -10638,6 +10666,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1537234211}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 10323816}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -403.1
@@ -11134,6 +11166,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1537234211}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 1180342301}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -499.3
@@ -14978,6 +15014,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1537234211}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 1382703090}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -441.9
@@ -16485,6 +16525,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1537234211}
+    - target: {fileID: 1850402055387543343, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 981059300}
     - target: {fileID: 6983998252537966401, guid: b6886e03c60f4334ebbfacb49b532d9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.1539841
