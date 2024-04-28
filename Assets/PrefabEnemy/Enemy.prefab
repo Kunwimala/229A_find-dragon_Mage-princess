@@ -221,6 +221,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 9184166949711294531, guid: d71fbe233fbd4fa498dce9f9d48169db, type: 3}
-  shootForce: 10
-  shootingRange: 10
-  player: {fileID: 0}
+  shootPoint: {fileID: 0}
+  bulletSpeed: 30
+  shootingRange: 5

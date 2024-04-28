@@ -4,8 +4,11 @@ using UnityEngine;
 public class EnemyShoot : MonoBehaviour
 {
     public GameObject projectilePrefab; // ประกาศ prefab ของ projectile
-    public Transform shootPoint; // จุดที่ bullet จะถูกยิง
+    [SerializeField]public Transform shootPoint; // จุดที่ bullet จะถูกยิง
     public float bulletSpeed = 10f; // ความเร็วของ bullet
+    public float shootingRange = 10f;
+    
+
 
     private Transform player; // เก็บ reference ของ player
 
@@ -17,6 +20,14 @@ public class EnemyShoot : MonoBehaviour
 
     private void Update()
     {
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+
+        // ถ้าระยะห่างน้อยกว่าหรือเท่ากับระยะที่กำหนดให้ยิง
+        if (distanceToPlayer <= shootingRange)
+        {
+            // เรียกฟังก์ชันยิง projectile
+            ShootBullet();
+        }
         // ตรวจสอบว่า player มีหรือไม่
         if (player != null)
         {
