@@ -4,13 +4,17 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 public class EnemyShoot : MonoBehaviour
 {
-    [Header("Attack Parameters")]
-    [SerializeField] private float attackCooldown;
+
+
+    [Header("Attack Parameters")] [SerializeField]
+    private float attackCooldown;
+
     [SerializeField] private float range;
-   
+
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform shootPoint;
 
@@ -19,13 +23,14 @@ public class EnemyShoot : MonoBehaviour
     private float colldierDistance;
 
     [SerializeField] private BoxCollider2D boxCollider;
-    
-    [Header("Player Layer")]
-    [SerializeField] private LayerMask playerLayer;
+
+
+    [Header("Player Layer")] [SerializeField]
+    private LayerMask playerLayer;
 
     private float cooldownTimer = Mathf.Infinity;
-    
-    
+
+
 
     private void Update()
     {
@@ -51,7 +56,8 @@ public class EnemyShoot : MonoBehaviour
         Vector3 enemyColliderSize = boxCollider.bounds.size;
 
         // หาตำแหน่งของศูนย์กลางของ BoxCast โดยใช้ค่าระยะและปรับขนาดตามขนาดของ Collider และขนาดของ BoxCast
-        Vector2 boxCastCenter = (Vector2)boxCollider.bounds.center + (Vector2)transform.right * range * transform.localScale.x * colldierDistance;
+        Vector2 boxCastCenter = (Vector2)boxCollider.bounds.center +
+                                (Vector2)transform.right * range * transform.localScale.x * colldierDistance;
 
         // สร้าง BoxCast
         RaycastHit2D hit = Physics2D.BoxCast(boxCastCenter, enemyColliderSize * range, 0, Vector2.left, 0, playerLayer);
@@ -61,17 +67,7 @@ public class EnemyShoot : MonoBehaviour
     }
 
 
-    private void Shoot()
-    {
-        // Find the direction to the player
-        Vector2 playerDirection = (PlayerPosition() - (Vector2)transform.position).normalized;
 
-        // Instantiate projectile at shoot point
-        GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
-
-        // Set projectile velocity towards the player
-        projectile.GetComponent<Rigidbody2D>().velocity = playerDirection * projectile.GetComponent<Rigidbody2D>().velocity.magnitude;
-    }
 
     private Vector2 PlayerPosition()
     {
@@ -88,11 +84,32 @@ public class EnemyShoot : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.magenta;
-        Gizmos.DrawWireCube(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colldierDistance,
-            new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y,boxCollider.bounds.size.z));
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(
+            boxCollider.bounds.center + transform.right * range * transform.localScale.x * colldierDistance,
+            new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
+    }
+
+    private void Shoot()
+    {
+        /*// Find the direction to the player
+        Vector2 playerDirection = (PlayerPosition() - (Vector2)transform.position).normalized;
+
+        // Instantiate projectile at shoot point
+        GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
+
+        // Set projectile velocity towards the player
+        projectile.GetComponent<Rigidbody2D>().velocity = playerDirection * projectile.GetComponent<Rigidbody2D>().velocity.magnitude;*/
+
     }
 }
+
+
+
+        
+
+
+  
 
 
 

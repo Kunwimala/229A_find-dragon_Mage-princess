@@ -23,7 +23,7 @@ public class Bullet : MonoBehaviour
     {
         this.direction = direction;
     }
-private void TakeDamage(int damage)
+/*private void TakeDamage(int damage)
     {
         Debug.Log("player tok" + damage + "damage!");
     }
@@ -36,7 +36,7 @@ private void TakeDamage(int damage)
             SceneManager.LoadScene("Lose");
         }
 
-    }
+    }*/
 
     
 }
