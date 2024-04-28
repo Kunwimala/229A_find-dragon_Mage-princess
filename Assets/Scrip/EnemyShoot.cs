@@ -48,10 +48,10 @@ public class EnemyShoot : MonoBehaviour
     public bool PlayerInSight()
     {
         // หาขนาดของ Collider ของ Enemy
-        Vector3 enemyColliderSize = PolygonCollider2D.bounds.size;
+        Vector3 enemyColliderSize = boxCollider.bounds.size;
 
         // หาตำแหน่งของศูนย์กลางของ BoxCast โดยใช้ค่าระยะและปรับขนาดตามขนาดของ Collider และขนาดของ BoxCast
-        Vector2 boxCastCenter = (Vector2)PolygonCollider2D.bounds.center + (Vector2)transform.right * range * transform.localScale.x * colldierDistance;
+        Vector2 boxCastCenter = (Vector2)boxCollider.bounds.center + (Vector2)transform.right * range * transform.localScale.x * colldierDistance;
 
         // สร้าง BoxCast
         RaycastHit2D hit = Physics2D.BoxCast(boxCastCenter, enemyColliderSize * range, 0, Vector2.left, 0, playerLayer);
